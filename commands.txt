@@ -1,0 +1,283 @@
+    1  sudo su -
+    2  exit
+    3  df -kh
+    4  git --version
+    5  python --version
+    6  man --version
+    7  linux --version
+    8  who
+    9  whoami
+   10  ls -lrt
+   11  pwd
+   12  cd /
+   13  sudo su -
+   14  pwd
+   15  mkdir training
+   16  pwd
+   17  cd /
+   18  ls -lrt
+   19  cd /home/centos/
+   20  ls -lrt
+   21  mkdir training
+   22  pwd
+   23  ls- lrt
+   24  ls -lrt
+   25  chmod 777 training/
+   26  ls -lrt
+   27  pwd
+   28  cd training/
+   29  ls -lrt
+   30  pwd
+   31  ls -la
+   32  git init
+   33  ls -lrt
+   34  ls -la
+   35  pwd
+   36  mkdir git_repo
+   37  git init
+   38  cd git_repo
+   39  ls -lrt
+   40  pwd
+   41  ls -la
+   42  cd ..
+   43  ls -lrt
+   44  pwd
+   45  rm -rf git_repo
+   46  pwd
+   47  ls -la
+   48  cd .git/
+   49  ls -lrt
+   50  cat config 
+   51  cd ..
+   52  ls -la
+   53  pwd
+   54  cd .git/
+   55  ls -lrt
+   56  cat description 
+   57  cd branches/
+   58  ls -lrt
+   59  cd ../
+   60  ls -lrt
+   61  cd hooks/
+   62  ls -lrt
+   63  cat applypatch-msg.sample
+   64  cd ../../
+   65  ls -lrt
+   66  pwd
+   67  ls -la
+   68  pwd
+   69  mkdir git_repo
+   70  pwd
+   71  ls -la
+   72  mv .git git_repo/
+   73  ls -lrt
+   74  ls -la
+   75  cd git_repo/
+   76  ls -lrt
+   77  ls -la
+   78  git init
+   79  ls -la
+   80  rm -rf .git/
+   81  ls -la
+   82  git init
+   83  git status
+   84  git config --global user.name "Aditya Kulshrestha"
+   85  git config --global user.email "kulsh.aditya@gmail.com"
+   86  cat /home/centos/.gitconfig 
+   87  git status
+   88  pwd
+   89  ls -la
+   90  pwd
+   91  vi .gitignore
+   92  ls -lrt
+   93  ls -la
+   94  ls -lrt
+   95  git status
+   96  git add -all
+   97  git add --all
+   98  git status
+   99  git rm --cached .gitignore
+  100  git status
+  101  git add --all
+  102  git status
+  103  pwd
+  104  ls -la
+  105  cd .git
+  106  ls -lrt
+  107  cat index
+  108  pwd
+  109  cd ..
+  110  ls -lrt
+  111  ls -la
+  112  git log
+  113  git status
+  114* 
+  115  git status
+  116  history
+  117  git status
+  118  git log
+  119  git log -p
+  120  pwd
+  121  touch abc.txt
+  122  ls -lrt
+  123  rm -rf abc.txt 
+  124  ls -lrt
+  125  ls -la
+  126  vi training.txt
+  127  git status
+  128  pwd
+  129  ls -lrt
+  130  ls -la
+  131  cat training.txt 
+  132  git status
+  133  git log
+  134  vi training.txt 
+  135  git status
+  136  git log
+  137  git commit -am "adding am demo" training.txt 
+  138  git commit -am "adding am demo"
+  139  git log
+  140  git log -p
+  141  git commit -am "adding am demo" training.txt 
+  142  git status
+  143  git add --all
+  144  git status
+  145  cat .gitignore 
+  146  pwd
+  147  git status
+  148  git log -p
+  149  cat training.txt 
+  150  git branch
+  151  git status
+  152  git commit -m "all set
+""
+  153  git commit -m "all set"
+  154  git staus
+  155  git status
+  156  git branch new-branch
+  157  git status
+  158  git checkout new-branch
+  159  git status
+  160  git log
+  161  git log -p
+  162  git log --oneline
+  163  vi training.txt 
+  164  git staus
+  165  git status
+  166  git commit -am "branch demo"
+  167  git log --oneline
+  168  cat training.txt 
+  169  git checkout master
+  170  cat training.txt 
+  171  git checkout new-branch
+  172  git log -oneliner
+  173  ls -lrt
+  174  cat training.txt 
+  175  git checkout master
+  176  cat training.txt 
+  177  git branch
+  178  pwd
+  179  ls -la
+  180  get status
+  181  git status
+  182  git checkout new-branch
+  183  git checkout master
+  184  pwd
+  185  ls -lrt
+  186  cat training.txt 
+  187  git checkout new-branch
+  188  cat training.txt 
+  189  git log --oneline
+  190  git merge new-branch
+  191  git merge master
+  192  cat training.txt 
+  193  git checkout master
+  194  ls -lrt
+  195  cat training.txt 
+  196  git merge new-branch
+  197  cat training.txt 
+  198  vi training.txt 
+  199  cat training.txt 
+  200  git commit -am "recurse merge demo-master"
+  201  git stauts
+  202  git status
+  203  cat training.txt 
+  204  git checkout new-branch
+  205  cat training.txt 
+  206  vi training.txt 
+  207  cat training.txt 
+  208  git commit -am "recurse merge demo-branch"
+  209  git merge new-branch
+  210  cat training.txt 
+  211  git checkout master
+  212  git merge new-branch
+  213  git checkout new-branch
+  214  git status
+  215  vi training.txt 
+  216  git merge --abort
+  217  vi training.txt 
+  218  git checkout new-branch
+  219  vi training.txt 
+  220  touch rescurse-demo
+  221  ls -lrt
+  222  vi rescurse-demo 
+  223  git commit -m "recurse merge demo-branch"
+  224  git add rescurse-demo
+  225  git commit -m "recurse merge demo-branch"
+  226  git status
+  227  git checkout master
+  228  git commit -am "recurse merge demo-branch"
+  229  git checkout master
+  230  ls -lrt
+  231  git merge new-branch
+  232  ls -lrt
+  233  git log -oneline
+  234  git log --oneline
+  235  history
+  236  ls -lrt
+  237  git status
+  238  cat training.txt
+  239  cat rescurse-demo
+  240  git branch
+  241  git checkout new-branch
+  242  vi training.txt 
+  243  git commit -am "recurse conflict demo-branch"
+  244  git checkout master
+  245  ls -lrt
+  246  cat training.txt 
+  247  git merge new-branch
+  248  ls -lrt
+  249  cat training.txt 
+  250  vi training.txt 
+  251  git merge new-branch
+  252  git commit -am "recurse conflict demo-master"
+  253  git merge new-branch
+  254  git branch
+  255  git merge master
+  256  git merge new-branch
+  257  cat training.txt 
+  258  git log --oneline
+  259  ls -lrt
+  260  git branch
+  261  vi training.txt 
+  262  git commit -am "recurse conflict demo-master"
+  263  cat training.txt 
+  264  git merge master
+  265  git merge new-branch
+  266  git branch
+  267  git checkout new-branch
+  268  git merge master
+  269  git branch
+  270  git checkout master
+  271  git tag
+  272  git tag REL-1.0
+  273  git tag
+  274  git checkout REL-1.0
+  275  git branch
+  276  git checkout -b hotfix
+  277  git branch
+  278  history
+  279  git remote -v
+  280  git remote add origin https://github.com/kulshaditya/training.git
+  281  git remote -v
+  282  history > commands.txt
