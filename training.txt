@@ -1,4 +1,3 @@
 git training
 -am demo
 added new branch
-recurse merge demo-branch
