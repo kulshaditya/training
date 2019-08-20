@@ -3,3 +3,4 @@ git training
 added new branch
 recurse merge demo-master
 confict demo
+master file
